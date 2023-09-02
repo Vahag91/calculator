@@ -1,0 +1,13 @@
+.button button {
+    background-color: rgb(34, 26, 104);
+    width: 85px;
+    height: 70px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.button button:active {
+    background-color: rgb(20, 15, 80);
+}
