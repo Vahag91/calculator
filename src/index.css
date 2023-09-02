@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    margin-top: 100px;
+    padding: 0;
+    background-color: rgb(217, 163, 223);
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .calc {
     width: 340px;
     height: 600px;

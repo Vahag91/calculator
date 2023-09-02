@@ -1,5 +1,5 @@
 import "./keyboard.css"
-import Button from "./Button/Button"
+import Button from "../Button/Button"
 
 const Keyboard = ({ keys }) => {
 

@@ -1,0 +1,29 @@
+div button {
+    background-color: rgb(34, 26, 104);
+    width: 85px;
+    height: 70px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+div button:active {
+    background-color: rgb(20, 15, 80);
+}
+
+.btn-zero button{
+    width: 170px;
+}
+
+.btn-green span {
+    color: rgb(82, 192, 98);
+}
+
+.btn-purple span {
+    color: rgb(189, 33, 178);
+}
+
+
+
+
