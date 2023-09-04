@@ -1,8 +1,10 @@
+import { Component } from "react";
 import "./button.css"
 
 
-const Button = (props)=> {
+class Button extends Component {
 
+   render() {
    const styles = {
       "=": "btn-green",
       "C": "btn-green",
@@ -14,12 +16,18 @@ const Button = (props)=> {
       "0": "btn-zero",
       };
   
-    const style = styles[props.text] || "button";
+    const style = styles[this.props.text] || "button";
 
 return <div className={style}>
- <button > <span>{props.text}</span>
+ <button > <span>{this.props.text}</span>
  </button>
 </div>
+   }
 }
+
+
+
+  
+
 
 export default Button

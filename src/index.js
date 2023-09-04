@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Keyboard from "./Keyboard/Keyboard";
-import Screen from "./Screen/Screen";
+import Keyboard from "./Keyboard";
+import Screen from "./Screen";
 import "./index.css"
 
 
@@ -28,9 +28,11 @@ const Calc = () => {
         {text: ".", id:18},
     ]
 
+
+
     return <div className="calc">
             <Screen />
-     <Keyboard keys={calcArray}/>
+           <Keyboard keys={calcArray}/>
     </div>
 }
 
